@@ -6,10 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/mi439
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/mi439/proprietary/vendor/bin/mm-qjpeg-dec-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qjpeg-dec-test \
-    vendor/xiaomi/mi439/proprietary/vendor/bin/mm-qjpeg-enc-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qjpeg-enc-test \
-    vendor/xiaomi/mi439/proprietary/vendor/bin/mm-qomx-idec-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qomx-idec-test \
-    vendor/xiaomi/mi439/proprietary/vendor/bin/mm-qomx-ienc-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qomx-ienc-test \
     vendor/xiaomi/mi439/proprietary/vendor/bin/sensors.qti.olive:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti.olive \
     vendor/xiaomi/mi439/proprietary/vendor/bin/sensors.qti.pine:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti.pine \
     vendor/xiaomi/mi439/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
@@ -304,12 +300,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mi439/proprietary/vendor/etc/camera/vdclear_hht_params_iii.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vdclear_hht_params_iii.xml \
     vendor/xiaomi/mi439/proprietary/vendor/firmware/C3E_FT5446_Hnlens.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/C3E_FT5446_Hnlens.bin \
     vendor/xiaomi/mi439/proprietary/vendor/firmware/C3E_FT5446_Truly.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/C3E_FT5446_Truly.bin \
-    vendor/xiaomi/mi439/proprietary/vendor/firmware/a506_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a506_zap.b00 \
-    vendor/xiaomi/mi439/proprietary/vendor/firmware/a506_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a506_zap.b01 \
-    vendor/xiaomi/mi439/proprietary/vendor/firmware/a506_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a506_zap.b02 \
-    vendor/xiaomi/mi439/proprietary/vendor/firmware/a506_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a506_zap.mdt \
-    vendor/xiaomi/mi439/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
-    vendor/xiaomi/mi439/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
     vendor/xiaomi/mi439/proprietary/vendor/firmware/aw87329_abrcv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87329_abrcv.bin \
     vendor/xiaomi/mi439/proprietary/vendor/firmware/aw87329_drcv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87329_drcv.bin \
     vendor/xiaomi/mi439/proprietary/vendor/firmware/aw87329_kspk.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87329_kspk.bin \
@@ -320,10 +310,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mi439/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin \
     vendor/xiaomi/mi439/proprietary/vendor/firmware/novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_mp.bin \
     vendor/xiaomi/mi439/proprietary/vendor/lib/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.fingerprints.extension@1.0.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libSNPE.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSNPE.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libVDClearShot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libVDClearShot.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libXMFD_AgeGender.so:$(TARGET_COPY_OUT_VENDOR)/lib/libXMFD_AgeGender.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/lib_lowlight.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_lowlight.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib/libactuator_olive_dw9714_imx363_qtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_olive_dw9714_imx363_qtech.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib/libactuator_olive_dw9714_ov13b10_ofilm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_olive_dw9714_ov13b10_ofilm.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib/libactuator_olive_dw9714_s5k2l7_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_olive_dw9714_s5k2l7_sunny.so \
@@ -337,11 +323,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mi439/proprietary/vendor/lib/libactuator_pine_fp5510_imx486_qtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_pine_fp5510_imx486_qtech.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib/libactuator_pine_fp5510_ov13855_ofilm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_pine_fp5510_ov13855_ofilm.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib/libactuator_pine_fp5510_ov13855_qtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_pine_fp5510_ov13855_qtech.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_high_dynamic_range.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc++_shared.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libcamera_scene.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_scene.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libcert_parse.wpa_s.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcert_parse.wpa_s.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_a3_default_preview.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_a3_default_video.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_a3_hfr_120.so \
@@ -3279,77 +3260,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mi439/proprietary/vendor/lib/libchromatix_pine_ov13855_qtech_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_pine_ov13855_qtech_video_full.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib/libchromatix_pine_ov13855_qtech_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_pine_ov13855_qtech_zsl_preview.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib/libchromatix_pine_ov13855_qtech_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_pine_ov13855_qtech_zsl_video.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdepthmapwrapper.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libflash_gpio.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_gpio.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmibokeh_439.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmibokeh_439.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_frame_algorithm.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera2_iface_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_iface_modules.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_imglib_modules.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_is.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera2_isp_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_isp_modules.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera2_mct.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_mct.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera2_mct_shimlayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_mct_shimlayer.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera2_pp_buf_mgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_pp_buf_mgr.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_pproc_modules.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera2_q3a_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_q3a_core.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_sensor_modules.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_algorithm.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera2_stats_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_lib.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera2_stats_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_modules.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_bokeh.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_csidtg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_csidtg.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dbg.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_depth_map.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_depth_map.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_dummyalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dummyalgo.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_eebinparse.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eebinparse.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_eeprom_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eeprom_util.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_eztune_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eztune_module.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_facedetection_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_facedetection_lib.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc2.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hdr_gb_lib.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_imglib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_irs1645.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_irs1645.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_abf40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_abf40.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_bcc40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bcc40.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_be_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_be_stats44.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_bf_stats47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bf_stats47.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_bg_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bg_stats44.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_bhist_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bhist_stats44.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_bpc40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bpc40.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_chroma_enhan40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_chroma_enhan40.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_chroma_suppress40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_chroma_suppress40.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_clamp_encoder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_clamp_encoder40.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_clamp_video40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_clamp_video40.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_clamp_viewfinder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_clamp_viewfinder40.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_color_correct40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_color_correct40.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_color_xform_encoder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_color_xform_encoder40.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_color_xform_viewfinder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_color_xform_viewfinder40.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_cs_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_cs_stats44.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_demosaic40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_demosaic40.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_demux40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_demux40.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_fovcrop_encoder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_fovcrop_encoder40.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_fovcrop_viewfinder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_fovcrop_viewfinder40.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_gamma40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_gamma40.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_ihist_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_ihist_stats44.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_linearization40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_linearization40.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_ltm44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_ltm44.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_luma_adaptation40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_luma_adaptation40.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_mce40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_mce40.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_mesh_rolloff40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_mesh_rolloff40.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_rs_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_rs_stats44.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_scaler_encoder44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_scaler_encoder44.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_scaler_viewfinder44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_scaler_viewfinder44.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_sce40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sce40.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sub_module.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_template.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_template.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_isp_wb40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_wb40.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_olive_gc02m1_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_gc02m1_sunny.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_olive_gc02m1b_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_gc02m1b_sunny.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_olive_gc2375_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_gc2375_sunny.so \
@@ -3383,9 +3293,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_olivewood_ov8856_qtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olivewood_ov8856_qtech.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_olivewood_ov8856_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olivewood_ov8856_sunny.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_olivewood_s5k4h7_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olivewood_s5k4h7_sunny.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_paaf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_paaf_lib.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdaf.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_pdafcamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdafcamif.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_pine_gc5035_holitech.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pine_gc5035_holitech.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_pine_gc5035_holitech_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pine_gc5035_holitech_eeprom.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_pine_gc5035_ofilm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pine_gc5035_ofilm.so \
@@ -3402,36 +3309,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_pine_ov13855_ofilm_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pine_ov13855_ofilm_eeprom.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_pine_ov13855_qtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pine_ov13855_qtech.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_pine_ov13855_qtech_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pine_ov13855_qtech_eeprom.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_ppbase_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppbase_module.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_ppeiscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppeiscore.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_quadracfa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_quadracfa.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_sat_test_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sat_test_lib.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_stillmore_lib.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw2d_lib.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_thread_services.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_thread_services.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning_lookup.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_westalgo_rtbokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_westalgo_rtbokeh.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmmqjpegdma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpegdma.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libois_bu63165.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_bu63165.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libois_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_lc898122.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libsymphony-cpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphony-cpu.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/libsymphonypower.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphonypower.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/rfsa/adsp/dirac_resource.dar:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/dirac_resource.dar \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/rfsa/adsp/libdirac-capiv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libdirac-capiv2.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/rfsa/adsp/misound_karaoke_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_karaoke_res.bin \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/rfsa/adsp/misound_karaokemix_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_karaokemix_res.bin \
-    vendor/xiaomi/mi439/proprietary/vendor/lib/rfsa/adsp/misound_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_res.bin \
     vendor/xiaomi/mi439/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib64/hw/consumerir.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.msm8937.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib64/hw/fingerprint.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8937.so \
@@ -3439,15 +3316,5 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mi439/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib64/libgoodixhwfingerprint.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixhwfingerprint.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_frame_algorithm.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib64/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_is.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_q3a_core.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_stats_algorithm.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib64/libmmcamera2_stats_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_stats_lib.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib64/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_dbg.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib64/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc2.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_algo.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_bg_pca_algo.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
